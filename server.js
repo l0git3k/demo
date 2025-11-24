@@ -14,7 +14,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.listen(port, () => {
 // Callback exécuté une fois que le serveur est démarré
 // Affiche un message dans la console pour indiquer que le serveur est en cours d'exécution
-    console.log(`Serveur lancé sur <http://localhost>:${port}`);
+    console.log(`Serveur lancé sur http://localhost:${port}`);
 });
 // Note : Ce serveur simple servira tous les fichiers statiques du dossier 'public'.
 // Par exemple, si vous avez un fichier 'index.html' dans le dossier 'public',
